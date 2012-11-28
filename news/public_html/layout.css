@@ -1,0 +1,123 @@
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	background-image: url(images/background.png);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+}
+a {
+	color: #06C;
+	text-decoration: none;
+}
+a:visited {
+	color: #06C;
+	text-decoration: none;
+}
+a:hover {
+	color: #06C;
+	text-decoration: underline;
+}
+
+#container {
+	width: 900px;
+	min-height:900px ;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+#header {
+	margin-bottom: 20px;
+	height: 54px;
+}
+#header h1 {
+	color: #999;
+	text-transform: uppercase;
+	line-height: 50px;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, .75);
+	
+	padding: 0px;
+	margin: 0px;
+}
+#content {
+	padding: 10px;
+	float: left;
+	width: 620px;
+	background-color: #F9F9F9;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	font-size: 14px;
+}
+#content #left {
+	width: 305px;
+	padding: 0px;
+	float: left;
+}
+#content #right {
+	width: 305px;
+	margin-left: 315px;
+}
+
+#login {
+	float: right;
+	width: 220px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #F9F9F9;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+#adminActions {
+	padding: 10px;
+	float: right;
+	width: 220px;
+	clear: right;
+	margin-bottom: 20px;
+	background-color: #F9F9F9;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+#advertising {
+	padding: 10px;
+	float: right;
+	width: 220px;
+	clear: right;
+	margin-bottom: 20px;
+	background-color: #F9F9F9;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+#about {
+	padding: 10px;
+	clear: right;
+	float: right;
+	width: 220px;
+	margin-bottom: 20px;
+	background-color: #F9F9F9;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+#about ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#about ul li a {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	text-decoration: none;
+	color: #06C;
+}
+#about ul li a:visited {
+	color: #06C;
+	text-decoration: none;
+}
+#about ul li a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	clear: both;
+}
