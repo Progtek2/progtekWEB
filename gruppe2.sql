@@ -535,10 +535,9 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `given_name`, `additional_name`, `family_name`, `email`, `birthday`, `gender`, `password`, `register_date`, `last_login_date`, `number_of_logins`, `ip`, `php_session_id`, `user_did_logout`, `group`) VALUES
-(1, 'Eivind', 'Eivind', '', 'Kleiven', 'eivind.kleiven@gmail.com', '1981-10-07', 'Male', '9cb3b7d5f20dc26294bf4d8d8362a518', '2012-11-16 16:22:34', '2012-11-27 20:22:51', 36, '46.9.85.119', 'gmcgc1ugh3ilmcqtfultunpi10', 0, 'Admin'),
-(8, 'username', 'Ola', '', 'Hansen', 'ola.nordmann@epost.no', '2012-05-01', 'Male', '26e7244ba726ec1d0e2ec77ffd1a3c9c', '2012-11-21 20:29:19', '2012-11-27 21:30:01', 21, '158.39.125.20', '3s7f8jv3git4756caborcod986', 0, 'User'),
-(10, 'Moderator', 'Kari', '', 'Olsen', 'kari.olsen@test.test', '1992-10-05', 'Female', '26e7244ba726ec1d0e2ec77ffd1a3c9c', '2012-11-22 22:56:43', '2012-11-22 22:57:01', 1, '46.9.85.119', 'gmcgc1ugh3ilmcqtfultunpi10', 1, 'Moderator'),
-(12, 'unk1nd', 'Mikael', 'Tore på Spore', 'Bendiksen', 'mikael@bendiksens.net', '1987-05-06', 'Male', '0e99099b44e328a1d18134e734871cdd', '2012-11-23 12:34:04', '2012-11-27 18:13:54', 8, '158.39.116.213', 'vihj7565gvhsm87off84vv0in4', 0, 'Admin');
+(8, 'username', 'Ola', '', 'Norman', 'ola.nordmann@epost.no', '2012-05-01', 'Male', '', '2012-11-21 20:29:19', '2012-11-27 21:30:01', 21, '158.39.125.20', '', 0, 'User'),
+
+
 
 -- --------------------------------------------------------
 
